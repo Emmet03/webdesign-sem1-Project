@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charaktere · Sanctum der Funkenwacht</title>
+  <meta name="description" content="Charakterübersicht zum Buchprojekt „Sanctum der Funkenwacht“." />
+  <link rel="stylesheet" href="../Style/mainStyle.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Zur Hauptseite">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-title">Sanctum der Funkenwacht</span>
+      </a>
+
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a class="nav-link" href="../index.html">Hauptseite</a>
+        <a class="nav-link" href="SneakPeak.html">SneakPeak</a>
+        <a class="nav-link is-active" href="Charaktere.html">Charaktere</a>
+        <a class="nav-link" href="impressum.html">Impressum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <canvas class="hero-canvas" aria-hidden="true"></canvas>
+
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="kicker">Figuren & Entwürfe</p>
+          <h1>Charaktere</h1>
+          <p class="lead">
+            Erste Einblicke in einige der Figuren aus „Sanctum der Funkenwacht“.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container character-grid">
+
+        <article class="card character">
+          <img
+            src="../Images/cristonImwaleth.png"
+            alt="Hochmagus Christon Imwaleth"
+            loading="lazy"
+          />
+          <h3>Hochmagus Christon Imwaleth</h3>
+          <p>
+            Lehrender Hochmagus am Sanctum der Funkenwacht.
+            Ein Magier mit Erfahrung – und Fragen, die ihn nicht loslassen.
+          </p>
+        </article>
+
+        <article class="card character">
+          <img
+            src="../Images/Heinrich.png"
+            alt="Heinrich von Rudfurt"
+            loading="lazy"
+          />
+          <h3>Heinrich von Rudfurt</h3>
+          <p>
+            Ein Bauernjunge, der an seinen Träumen festhält.
+            Noch ahnt er nicht, wie sehr diese ihn verändern werden.
+          </p>
+        </article>
+
+        <article class="card character">
+          <img
+            src="../Images/adler.png"
+            alt="Adler"
+            loading="lazy"
+          />
+          <h3>Adler</h3>
+          <p>
+            Der wohl mysteriöseste Mensch aus Inaka.
+            Kaum jemand kennt seine Herkunft – oder seine wahren Ziele.
+          </p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Jan Mamay · „Sanctum der Funkenwacht“</p>
+      <p class="footer-links">
+        <a href="impressum.html">Impressum</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
